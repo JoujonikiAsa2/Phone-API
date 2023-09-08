@@ -1,0 +1,21 @@
+.card-style {
+    padding-top: 30px;
+}
+
+.containerStyle {
+    display: grid;
+    grid-template-columns:repeat(3, 400px);
+    justify-content: center;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    gap:30px;
+}
+.containerStyleSmall {
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
